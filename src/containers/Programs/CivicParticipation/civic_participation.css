@@ -1,0 +1,104 @@
+.CivicParticipationProgramPrimary {
+    color: blue;
+    text-align: center;
+  }
+  .CivicParticipationProgramHr {
+    border-top: 1px solid blue;
+    width: 35%;
+  }
+.item2 {
+    top: 1456px;
+    left: 1350px;
+    width: 1500px;
+    height: 200px;
+    padding: 40px ;
+    text-align: center;
+    border: 2px solid blue;
+  }
+  .CivicParticipationProgramgridcontainer {
+    margin: auto;
+    width: 500px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 10px;
+    background-color: #bff1f1;
+    padding: 10px;
+  }
+  
+  .CivicParticipationProgramgridcontainer > div {
+    text-align: center;
+    padding: 2px 0;
+  
+    font-size: 30px;
+  }
+  
+  .CivicParticipationProgramitem1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+  .CivicParticipationProgramitem1Hr {
+    border-top: 1px solid white;
+    width: 100%;
+  }
+  .CivicParticipationProgramitem2 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+ 
+  .CivicParticipationProgramitem3 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+ 
+  .CivicParticipationProgramitem4 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+ 
+  .CivicParticipationProgramitem5 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+  
+  .CivicParticipationProgramitem6 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+  
+  .CivicParticipationProgramitem7 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+  .Civicparticipationhvree {
+    top: 1456px;
+      left: 500px;
+      width: 550px;
+      height: 180px;
+      padding: 40px ;
+    text-align: center;
+    border: 2px solid #6d91d4;
+    background-color: turquoise;
+  }
+  .item1p{
+    font-size: 14px;
+  }
+  .item2p{
+    font-size: 14px;
+  }
+  .item3p{
+    font-size: 14px;
+  }
+  .item4p{
+    font-size: 14px;
+  }
+  .item5p{
+    font-size: 14px;
+  }
+  .item6p{
+    font-size: 14px;
+  }
+  .item7p{
+    font-size: 14px;
+  }
+
+  

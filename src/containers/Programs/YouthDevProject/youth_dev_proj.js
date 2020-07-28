@@ -1,5 +1,7 @@
 import React, { Component } from "react";
-class Huudas3 extends Component {
+import youth from "./youthdevproj.css";
+
+class youth_dev_proj extends Component {
   //constructor(props) {
   //super(props);
   //this.state = {};
@@ -28,11 +30,11 @@ class Huudas3 extends Component {
       <div>
         <br />
         <br />
-        <h1 className="Garchig">
+        <h1 className={youth.youthdevprojGarchig}>
           <i class="fa fa-hand-peace-o" aria-hidden="true"></i>
           {this.state.Youth}
         </h1>
-        <hr className="zuraas" />
+        <hr className={youth.youthdevprojzuraas} />
         <div style={{ display: "flex", width: "60%", margin: "auto" }}>
           <div style={{ width: "50%" }}>
             <div
@@ -94,7 +96,12 @@ class Huudas3 extends Component {
         </div>
         <div style={{ margin: "26px" }}>
           <div>
-            <p className="items" style={{ margin: "auto" }}>
+            <p
+              className={youth.youthdevprojitems }
+              style={{
+                
+              }}
+            >
               {this.state.ptext}
             </p>
           </div>
@@ -104,4 +111,4 @@ class Huudas3 extends Component {
   }
 }
 
-export default Huudas3;
+export default youth_dev_proj;
