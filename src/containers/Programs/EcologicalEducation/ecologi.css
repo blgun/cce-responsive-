@@ -1,0 +1,40 @@
+.ecoGarchig {
+    color: #1AA65D;;
+    text-align: center;
+  }
+.ecozuraas {
+    border-top: 1px solid #1AA65D;
+    width: 35%;
+}
+.zurag{
+  background-image: url(./tree2.jpg);
+  background-position: center; 
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding: 15px 30px 15px 30px;
+  opacity: 0.75;
+}
+.Ecop1
+{
+  font-size: 15px;
+}
+.ecodisplay {
+  padding: 20px 50px 30px 180px;
+}
+.ECO {
+  width: 25%;
+  background-color:  #d4f7e4;
+  margin: 5px;
+}
+
+.ECO:hover {
+  box-shadow: 5px 20px 20px 1px rgba(0, 0, 0, 0.253) !important;
+}
+.ECObody {
+  padding: 1px 10px 3px 25px;
+}
+.ECOimgtop{
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}

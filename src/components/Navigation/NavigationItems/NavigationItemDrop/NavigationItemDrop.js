@@ -25,10 +25,10 @@ const SwitchedDrop = (props) => {
       return (
         <div>
           <li>
-            <NavLink to={"/"}>Civic Education</NavLink>
+            <NavLink to={"/programs/civic_education"}>Civic Education</NavLink>
           </li>
           <li>
-            <NavLink to={"/"}>Civic Participation</NavLink>
+            <NavLink to={"/civic_participation"}>Civic Participation</NavLink>
           </li>
           <li>
             <NavLink to={"/programs/youth_dev_proj"}>

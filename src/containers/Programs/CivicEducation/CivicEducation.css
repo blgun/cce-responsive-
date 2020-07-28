@@ -1,0 +1,38 @@
+.CivicEducationprimary {
+    color: red;
+    text-align: center;
+  }
+  .CivicEducationhr {
+    border-top: 1px solid red;
+    width: 35%;
+  }
+  
+  .CivicEducationitem1 {
+    background-color: bisque;
+    width: 400px;
+    margin: 20px auto;
+    border: 2px solid #fef0e3;
+    padding: 10px;
+    border-radius: 50px;
+  }
+  .CivicEducationgridcontainer {
+    width: 300px;
+    margin: 20px auto;
+    padding: 2px;
+    display: grid;
+    grid-template-areas: "header";
+  }
+  .CivicEducationimg{
+    width: 200px;
+    height: 250px;
+  }
+  .CivicEducationChvree {
+    top: 1456px;
+      left: 600px;
+      width: 800px;
+      height: 200px;
+      padding: 40px ;
+    text-align: center;
+    border: 2px solid red;
+  }
+  
