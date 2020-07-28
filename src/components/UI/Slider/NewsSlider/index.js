@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import { Carousel } from "primereact/carousel";
-import 'primeicons/primeicons.css';
-import "primereact/resources/themes/nova-light/theme.css";
-import "primereact/resources/primereact.css";
+import primeicon from "primeicons/primeicons.css";
+import primereacttheme from "primereact/resources/themes/nova-light/theme.css";
+import primereact from "primereact/resources/primereact.css";
 import NewsSliderCard from "../../Card/NewsSliderCard/CardUI";
 
 class NewsSlider extends Component {
@@ -32,8 +32,9 @@ class NewsSlider extends Component {
 
   render() {
     return (
-      <div style={{padding: "15px 0"}}>
+      <div style={{ padding: "15px 0" }}>
         <Carousel
+          className={primeicon + " " + primereacttheme + " " + primereact}
           value={this.state.news}
           itemTemplate={NewsSliderCard}
           numVisible={4}

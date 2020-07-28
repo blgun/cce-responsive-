@@ -26,6 +26,7 @@ class OurTeam extends Component {
           >
             Our Team
           </h1>
+          <Card />
         </div>
       </div>
     );

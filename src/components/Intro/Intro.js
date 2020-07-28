@@ -1,11 +1,11 @@
 import React from "react";
-import "./Intro.css";
+import intro from "./Intro.css";
 import { Jumbotron, Container } from "react-bootstrap";
 
 function Jumbotrons() {
   return (
     <div>
-      <Jumbotron fluid className="jumbotron">
+      <Jumbotron fluid className={intro.HomeIntro}>
         <Container>
           <div>
             <h1 style={{ color: "#fff" }}>

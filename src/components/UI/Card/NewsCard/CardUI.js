@@ -1,16 +1,19 @@
 import React from "react";
+import newsCard from "./card-style.css";
 
 const Card = (props) => {
   return (
     <div
       className={
         props.styleWidth === "home"
-          ? "newsCardHome text-center shadow"
-          : "newsCardNews text-center shadow"
+          ? newsCard.newsCardHome
+          : newsCard.newsCardNews
+        //   ? "newsCardHome text-center shadow"
+        //   : "newsCardNews text-center shadow"
       }
     >
       <div className="overflow">
-        <img src={props.imgsrc} alt="image1" className="newsCard-img-top" />
+        <img src={props.imgsrc} alt="image1" className={newsCard.newsCardImgTop} />
       </div>
       <div className="newsCard-body text-dark">
         <h4 className="newsCard-title">News Title</h4>
