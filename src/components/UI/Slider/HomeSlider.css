@@ -1,0 +1,8 @@
+.HomeSliderTitle {
+  background-color: #2c2b2c;
+  opacity: 0.8;
+}
+
+.HomeSliderTitle h3, .HomeSliderTitle p{
+    font-weight: bold;
+}

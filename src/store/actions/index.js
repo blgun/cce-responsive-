@@ -1,0 +1,1 @@
+export { fetchOurTeam } from "./ourTeam";
