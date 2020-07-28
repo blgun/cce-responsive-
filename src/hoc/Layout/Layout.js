@@ -4,6 +4,7 @@ import Aux from "../Aux/Aux";
 import classes from "./Layout.css";
 import Toolbar from "../../components/Navigation/Toolbar/Toolbar";
 import SideDrawer from "../../components/Navigation/SideDrawer/SideDrawer";
+import Footer from "../../components/Navigation/Footer/";
 
 class Layout extends Component {
   state = {
@@ -29,6 +30,7 @@ class Layout extends Component {
           closed={this.sideDrawerClosedHandler}
         />
         <main className={classes.Content}>{this.props.children}</main>
+        <Footer />
       </Aux>
     );
   }

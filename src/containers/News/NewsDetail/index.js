@@ -12,8 +12,8 @@ import { TwitterTimelineEmbed } from "react-twitter-embed";
 class NewsDetail extends Component {
   render() {
     return (
-      <div style={{ width: "1200px", margin: "0 auto" }}>
-        <NewsSlider />
+      <div>
+        {/* <NewsSlider /> */}
         <div style={{ display: "flex", padding: "15px 0" }}>
           <div style={{ margin: "0 15px", width: "70%" }}>
             <img style={{ width: "100%", margin: "0"}}></img>
