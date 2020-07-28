@@ -1,30 +1,31 @@
 import React, { Component } from "react";
 import CE from "./indexUI";
+import publication from "./publication.css";
 import { FaUserAlt } from "react-icons/fa";
 
 class index extends Component {
   render() {
     return (
       <div>
-        <h1 className="Primary">
+        <h1 className={ publication .CePrimary}>
           <i class="fa fa-user" aria-hidden="true"></i>
           Civic Education Publication
         </h1>
-        <hr className="Hr" />
+        <hr className={ publication .CeHr} />
 
-        <div style={{ display: "flex" }}>
+        <div className={ publication.CeResponsive}>
           <CE />
           <CE />
           <CE />
           <CE />
         </div>
-        <div style={{ display: "flex" }}>
+        <div className={ publication.CeResponsive}>
           <CE />
           <CE />
           <CE />
           <CE />
         </div>
-        <div style={{ display: "flex" }}>
+        <div className={ publication.CeResponsive}>
           <CE />
           <CE />
           <CE />

@@ -1,15 +1,15 @@
 import React from "react";
 import book from "../CEPublication/book.jpg";
-
+import publication from "./publication.css"
 const index = (props) => {
   return (
-    <div className="Ce">
-      <div className="overflow">
-        <img src={book} alt="image1" className="Ce-img-top" />
+    <div className={ publication .Ce}>
+      <div className={ publication .overflow}>
+        <img src={book} alt="image1" className={publication.Ceimgtop} />
       </div>
-      <div className="Ce-body text-dark">
-        <h4 className="Ce-title">Civic Education3</h4>
-        <p className="Ce-text text-secondary">
+      <div className={publication.Cebodytextdark}>
+        <h4 className={publication.Cetitle}>Civic Education3</h4>
+        <p className={publication.Cetexttextsecondary}>
           Civic Education3:Textbook for the 3rd grade of-year general education
           school/Narangerel.R.,And others;Ed Tuya.U.Purev.O-UB 2011
         </p>

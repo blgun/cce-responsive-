@@ -6,8 +6,9 @@ import { faUserAlt } from "react-icons/fa";
 import { FiUserCheck } from "react-icons/fi";
 import { FaBuilding } from "react-icons/fa";
 import { FaUserTimes } from "react-icons/fa";
+import huudas from "./CivicEducation.css";
 import book from "./nom1.jpg";
-class Huudas1 extends Component {
+class CivicEducation extends Component {
   //constructor(props) {
   //super(props);
   //this.state = {};
@@ -34,29 +35,29 @@ class Huudas1 extends Component {
       <div>
         <br />
         <br />
-        <h1 className="primary">
+        <h1 className={huudas.CivicEducationprimary}>
           <i class="fa fa-users" aria-hidden="true"></i>
           {this.state.header}
         </h1>
-        <hr className="hr" />
-        <div className="grid-container">
+        <hr className={huudas.CivicEducationhr}  />
+        <div className={huudas.CivicEducationgridcontainer}>
           <div style={{ display: "flex" }}>
             <BsBook color="red" size="1.25rem" style={{ margin: "auto" }} />
-            <p className="item1" style={{ margin: "10px" }}>
+            <p className={huudas.CivicEducationitem1} style={{ margin: "10px" }}>
               {this.state.p1}
               {this.state.p2}
             </p>
           </div>
           <div style={{ display: "flex" }}>
             <GiTeacher color="red" size="1.25rem" style={{ margin: "auto" }} />
-            <p className="item1" style={{ margin: "10px" }}>
+            <p className={huudas.CivicEducationitem1} style={{ margin: "10px" }}>
               {this.state.p3}
               {this.state.p4}
             </p>
           </div>
           <div style={{ display: "flex" }}>
             <FaUserAlt color="red" size="1.25rem" style={{ margin: "auto" }} />
-            <p className="item1" style={{ margin: "10px" }}>
+            <p className={huudas.CivicEducationitem1}  style={{ margin: "10px" }}>
               {this.state.p5}
             </p>
           </div>
@@ -66,13 +67,13 @@ class Huudas1 extends Component {
               size="1.25rem"
               style={{ margin: "auto" }}
             />
-            <p className="item1" style={{ margin: "10px" }}>
+            <p className={huudas.CivicEducationitem1}  style={{ margin: "10px" }}>
               {this.state.p6}
             </p>
           </div>
           <div style={{ display: "flex" }}>
             <FaBuilding color="red" size="1.25rem" style={{ margin: "auto" }} />
-            <p className="item1" style={{ margin: "10px" }}>
+            <p className={huudas.CivicEducationitem1}  style={{ margin: "10px" }}>
               {this.state.p7}
             </p>
           </div>
@@ -82,21 +83,22 @@ class Huudas1 extends Component {
               size="1.25rem"
               style={{ margin: "auto" }}
             />
-            <p className="item1" style={{ margin: "10px" }}>
+            <p className={huudas.CivicEducationitem1} style={{ margin: "10px" }}>
               {this.state.p8}
             </p>
           </div>
         </div>
         <div>
           <div>
-            <p className="Chvree" style={{ margin: "auto" }}>
+            <p className={huudas.CivicEducationChvree} style={{ margin: "auto" }}>
               {this.state.p9}
             </p>
           </div>
         </div>
+      
       </div>
     );
   }
 }
 
-export default Huudas1;
+export default CivicEducation;
