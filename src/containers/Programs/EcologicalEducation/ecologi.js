@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import ECO from "./ecologiUI";
+import Ecologi from "./ecologi.css";
 class ecologi extends Component {
   constructor(props) {
     super(props);
@@ -23,11 +24,11 @@ class ecologi extends Component {
       <div>
         <br />
         <br />
-        <h1 className="ecoGarchig">
+        <h1 className={Ecologi.ecoGarchig}>
           <i class="fa fa-hand-peace-o" aria-hidden="true"></i>
           Ecological Education Program
         </h1>
-        <hr className="ecozuraas" />
+        <hr className={Ecologi.ecozuraas} />
         <div className="ecodisplay" style={{ display: "flex" }}>
           <ECO text={this.state.text1} />
           <ECO text={this.state.text2} />

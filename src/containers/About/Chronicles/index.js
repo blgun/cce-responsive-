@@ -12,7 +12,7 @@ class Chronicle extends Component {
       <div>
         <br />
         <br />
-        <h1
+        <h1 className={classes.chronicles}
         >
           Chronicles
         </h1>
@@ -31,7 +31,7 @@ class Chronicle extends Component {
 
                 <td className={classes.info}  style={{ borderColor: "#20387D"}}> <b> August 12 1992 </b> <br /> Founded and officially registered under the name Central Asian Development Foundation</td>
                 <td className={classes.years} style={{ backgroundColor: "#20387D"}}> <br /> 1992 </td>
-                <td className={classes.info}>hi</td>
+                <td className={classes.info}></td>
               </tr>
               <tr>
 

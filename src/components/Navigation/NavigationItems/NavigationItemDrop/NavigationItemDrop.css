@@ -4,7 +4,7 @@
 }
 
 .NavigationItemDropContent {
-  margin: 19px 0 0 -10px;
+  margin: 0 0 0 -10px;
   display: none;
   position: absolute;
   background-color: #f1f1f1;
@@ -24,6 +24,7 @@
 .NavigationItemDropContent a:hover {
   color: inherit;
   border-bottom: 4px solid #40a4c8;
+  text-decoration: none;
 }
 
 .NavigationItemDrop:hover .NavigationItemDropContent {

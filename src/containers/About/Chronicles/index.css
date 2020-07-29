@@ -1,6 +1,6 @@
 
 
-h1 {
+.chronicles{
     margin: 15px auto;
     padding: 15px;
     width: 500px;
@@ -22,5 +22,5 @@ h1 {
     width: 400px;
     border: 10px;
     border-radius: 50%;
-    padding-left: 80px;
+    
 }

@@ -1,0 +1,37 @@
+body {
+  background: radial-gradient(#e5e5e5, #ffff, #e5e5e5);
+}
+
+.newsCardHome {
+  width: 25%;
+  margin: 5px;
+}
+
+.newsCardNews {
+  width: 30%;
+  margin: 5px;
+  float: left;
+}
+
+.newsCard-body {
+  padding: 1rem 0 !important;
+}
+
+.newsCard-text {
+  font-style: italic;
+  padding: 0.4rem 1.9rem;
+  margin: 15px;
+}
+
+.newsCardImgTop {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+
+@media (max-width: 500px) {
+  .newsCardHome,
+  .newsCardNews {
+    width: 100%;
+  }
+}

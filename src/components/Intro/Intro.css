@@ -1,16 +1,16 @@
-.jumbotron {
+.HomeIntro {
   background-repeat: no-repeat;
   background-position: center;
-  background-image: url(./about.png);
+  background-image: url("./about.png");
 }
 
-.jumbotron h1 {
+.HomeIntro h1 {
   color: #fff;
 }
-.jumbotron p {
+.HomeIntro p {
   text-align: center;
   color: #fff;
 }
-.jumbotron hr {
+.HomeIntro hr {
   background-color: #9dece2;
 }
