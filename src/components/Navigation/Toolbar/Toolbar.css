@@ -12,6 +12,7 @@
   padding: 0 20px;
   box-sizing: border-box;
   z-index: 90;
+  border-bottom: 1px solid #40a4c8;
 }
 
 .Toolbar nav {

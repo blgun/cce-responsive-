@@ -28,38 +28,40 @@ function App() {
       <Layout>
         <Switch>
           <Route path="/" exact component={Home} />
-          
-          <Route path="/civic_participation"  component={CivicParticipation}/>
-          <Route path="/about/board_members"  component={BoardMembers} />
-          <Route path="/about/partners"  component={Partners} />
-          <Route path="/about/our_team"  component={OurTeam} />
-          <Route path="/programs/civic_education"  component={CivicEducation} />
-          <Route path="/programs/youth_dev_proj"  component={YouthDevProject} />
-          <Route path="/programs/ecologeducation"  component={EcologicalEducation} />
-          <Route path="/news"  component={News} />
-          <Route path="/newsDetail"  component={NewsDetail} />
-          <Route path="/publication/civic_education"  component={CEPublication} />
-          <Route path="/publication/civic_publication"  component={CP} />
+
+          <Route path="/civic_participation" component={CivicParticipation} />
+          <Route path="/about/board_members" component={BoardMembers} />
+          <Route path="/about/partners" component={Partners} />
+          <Route path="/about/our_team" component={OurTeam} />
+          <Route path="/programs/civic_education" component={CivicEducation} />
+          <Route path="/programs/youth_dev_proj" component={YouthDevProject} />
+          <Route
+            path="/programs/ecologeducation"
+            component={EcologicalEducation}
+          />
+          <Route path="/news" component={News} />
+          <Route path="/newsDetail" component={NewsDetail} />
+          <Route
+            path="/publication/civic_education"
+            component={CEPublication}
+          />
+          <Route path="/publication/civic_publication" component={CP} />
           <Route
             path="/publication/youth_development_publication"
-            
             component={Youthdevelopmentpublication}
           />
-          <Route path="/ecologi"  component={Ecologi} />
-          <Route path="/archive/reports"  component={ArchiveReport} />
+          <Route path="/ecologi" component={Ecologi} />
+          <Route path="/archive/reports" component={ArchiveReport} />
           <Route
             path="/archive/success_stories"
-            
             component={ArchiveSuccesStories}
           />
           <Route
             path="/archive/feedback_from_beneficiares"
-            
             component={ArchiveFeedbackBenef}
           />
           <Route
             path="/archive/donors_evolution"
-            
             component={ArchiveDonorEvolution}
           />
         </Switch>
