@@ -1,14 +1,11 @@
 import React from "react";
+import style from "./style.css";
 
 const Card = (props) => {
   return (
-    <div className={"archiveReportsCard text-center shadow"}>
-      <div className="overflow">
-        <img
-          src={props.imgsrc}
-          alt="image1"
-          className="archiveReports-img-top"
-        />
+    <div className={style.ArchiveReportCard}>
+      <div>
+        <img src={props.imgsrc} alt="image1" className={style.ArchiveReportCardImg}/>
       </div>
       {/* <div className="archiveReports-body text-dark">
         <h4 className="archiveReports-title">News Title</h4>

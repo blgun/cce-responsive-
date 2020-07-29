@@ -42,24 +42,20 @@ function App() {
           <Route path="/publication/civic_publication"  component={CP} />
           <Route
             path="/publication/youth_development_publication"
-            
             component={Youthdevelopmentpublication}
           />      /programs/ecologeducation
           <Route path="/programs/ecologeducation"  component={Ecologi} />
           <Route path="/archive/reports"  component={ArchiveReport} />
           <Route
             path="/archive/success_stories"
-            
             component={ArchiveSuccesStories}
           />
           <Route
             path="/archive/feedback_from_beneficiares"
-            
             component={ArchiveFeedbackBenef}
           />
           <Route
             path="/archive/donors_evolution"
-            
             component={ArchiveDonorEvolution}
           />
         </Switch>
