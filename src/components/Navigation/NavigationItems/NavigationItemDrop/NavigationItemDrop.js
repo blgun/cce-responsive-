@@ -88,7 +88,7 @@ const SwitchedDrop = (props) => {
             <NavLink to={"/publication/youth_development_publication"}>Youth Development Project</NavLink>
           </li>
           <li>
-            <NavLink to={"/"}>Ecological Education</NavLink>
+            <NavLink to={"/programs/ecologeducation"}>Ecological Education</NavLink>
           </li>
         </div>
       );

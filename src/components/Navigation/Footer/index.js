@@ -56,9 +56,9 @@ const Footer = (props) => (
               <h1>
                 <div style={{ textAlign: "left", color: "#FFFFFF" }}>
                   Contact us
+                  
                 </div>
-              </h1>
-
+                
               <hr
                 style={{
                   color: "#40a4c8",
@@ -71,8 +71,10 @@ const Footer = (props) => (
                 }}
               />
 
+              </h1>
+
               <div style={{ display: "flex", alignItems: "center" }}>
-                <GoLocation size={20} style={{ color: "yellow" }} />
+                <GoLocation size={20} style={{ color: "#26D1CE" }} />
                 &nbsp; &nbsp;
                 <div style={{ fontSize: "15px", color: "#FFFFFF" }}>
                   Center for Citizenship Education,
@@ -88,7 +90,7 @@ const Footer = (props) => (
                   marginLeft: "560px",
                 }}
               >
-                <TiContacts size={20} style={{ color: "yellow" }} />
+                <TiContacts size={20} style={{ color: "#26D1CE" }} />
                 &nbsp; &nbsp;
                 <div style={{ fontSize: "15px", color: "#FFFFFF" }}>
                   (976)313619 <br />
@@ -102,7 +104,7 @@ const Footer = (props) => (
                   marginLeft: "560px",
                 }}
               >
-                <MdMailOutline size={20} style={{ color: "yellow" }} />
+                <MdMailOutline size={20} style={{ color: "#26D1CE" }} />
                 &nbsp; &nbsp;
                 <div style={{ fontSize: "15px", color: "#FFFFFF" }}>
                   cce@magic.net <br /> ariuna.cce.mn@gmail.com
@@ -123,22 +125,6 @@ const Footer = (props) => (
                   <FacebookShareButton url={shareUrl} className="m-2">
                     <FacebookIcon size={50} round={true} />
                   </FacebookShareButton>
-                  <TwitterShareButton
-                    url={shareUrl}
-                    className="button"
-                    style={{ margin: "5px" }}
-                  >
-                    <TwitterIcon size={50} round={true} />
-                  </TwitterShareButton>
-                  <LinkedinShareButton
-                    url={shareUrl}
-                    windowWidth={750}
-                    windowHeight={600}
-                    className="button"
-                    style={{ margin: "5px" }}
-                  >
-                    <LinkedinIcon size={50} round={true} />
-                  </LinkedinShareButton>
                   <TwitterShareButton
                     url={shareUrl}
                     className="button"

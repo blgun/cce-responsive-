@@ -1,30 +1,32 @@
 import React, { Component } from "react";
 import CE from "./indexUI";
+
+import publication from "./publication.css";
 import { FaUserAlt } from "react-icons/fa";
 
-class publication extends Component {
+class Publication extends Component {
   render() {
     return (
       <div>
-        <h1 className="CivicparticipationPrimary">
-          <i class="fa fa-user" aria-hidden="true"></i>
-          Civic Education Publication
+        <h1 className={ publication .ParticipatoryPrimary}>
+          <i clapartiss="fa fa-user" aria-hidden="true"></i>
+          Citizen Participatory Publication
         </h1>
-        <hr className="CivicparticipationHr" />
+        <hr className={ publication .ParticipatoryHr} />
 
-        <div style={{ display: "flex" }}>
+        <div className={ publication.ParticipatoryResponsive}>
           <CE />
           <CE />
           <CE />
           <CE />
         </div>
-        <div style={{ display: "flex" }}>
+        <div className={ publication.ParticipatoryResponsive}>
           <CE />
           <CE />
           <CE />
           <CE />
         </div>
-        <div style={{ display: "flex" }}>
+        <div className={ publication.ParticipatoryResponsive}>
           <CE />
           <CE />
           <CE />
@@ -35,4 +37,4 @@ class publication extends Component {
   }
 }
 
-export default  publication;
+export default Publication;
