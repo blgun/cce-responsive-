@@ -20,7 +20,7 @@ class BoardMembers extends Component {
     return (
       <div>
         <div>
-          <h1>Board Members</h1>
+          <h1 className={classes.AboutBMheader}>Board Members</h1>
         </div>
 
         <CardRavdan imgsrc={KhRavdan} />

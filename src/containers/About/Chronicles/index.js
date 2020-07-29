@@ -12,7 +12,7 @@ class Chronicle extends Component {
       <div>
         <br />
         <br />
-        <h1 className={classes.chronicles}
+        <h1 className={classes.Aboutchronicles}
         >
           Chronicles
         </h1>
