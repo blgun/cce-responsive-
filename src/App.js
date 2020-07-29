@@ -21,6 +21,7 @@ import ArchiveSuccesStories from "./containers/Archive/SuccesStories";
 import ArchiveFeedbackBenef from "./containers/Archive/FeedbackBenef";
 import ArchiveDonorEvolution from "./containers/Archive/DonorEvolution";
 import Partners from "./containers/About/Partners/Partners";
+import AboutUsChronicle from "./containers/About/Chronicles";
 
 function App() {
   return (
@@ -37,7 +38,11 @@ function App() {
           <Route path="/about/board_members" exact component={BoardMembers} />
           <Route path="/about/partners" exact component={Partners} />
           <Route path="/about/our_team" exact component={OurTeam} />
-          <Route path="/programs/youth_dev_proj" exact component={YouthDevProject} />
+          <Route
+            path="/programs/youth_dev_proj"
+            exact
+            component={YouthDevProject}
+          />
           <Route
             path="/programs/ecologeducation"
             exact
@@ -45,7 +50,11 @@ function App() {
           />
           <Route path="/news" exact component={News} />
           <Route path="/newsDetail" exact component={NewsDetail} />
-          <Route path="/publication/civic_education" exact component={CEPublication} />
+          <Route
+            path="/publication/civic_education"
+            exact
+            component={CEPublication}
+          />
           <Route path="/publication/civic_publication" exact component={CP} />
           <Route
             path="/publication/youth_development_publication"
@@ -69,6 +78,7 @@ function App() {
             exact
             component={ArchiveDonorEvolution}
           />
+          <Route path="/about/chronicles" exact component={AboutUsChronicle} />
         </Switch>
       </Layout>
     </div>
