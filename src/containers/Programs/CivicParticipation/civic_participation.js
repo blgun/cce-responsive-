@@ -9,20 +9,19 @@ class civic_participation extends Component {
   state = {
     civicparticipatory: "Citizen Participatory Program",
     Conducttrainingonicitizen:
-      "1 Conduct training on citizen participation and m power citizens",
+      "1 Conduct training on citizen participation and empower citizens",
     Conducttrainingongood:
       "2 Conduct training on good governance and civic education",
     Conducttrainingonenvironmental:
-      "3 Conduct training on environmental conservation such as water qualiti monitoring,files management and environmental assessment",
+      "3 Conduct training on environmental conservation such as water quality monitoring, fires management and environmental assessment",
     SetUp: "4 Set up local community groups and facilitate their activities",
     Organise:
       " 5 Organise training on how to develop small projects for local community and support/promote projects",
     Setuplocalenvironmental:
-      " 6 Set up local environmental group and provide training andguadance on how to monitor busenesses that have an impact onevcironment",
+      " 6 Set up local environmental group and provide training and guidance on how to monitor businesses that have an impact on environment",
     train: "7 Train and facilitate local youth",
     citizensfrom:
-      "  766 citizens from 10 provinces participated ion Citizen Participation project, As a result of the project,community movements have been established in 4 souls and 1 bag. Within the framework of NGO capacity building project,a regional training in Ulaanbaatar city and 21 provinces were organised and 3250 NGOs and staff were involved",
-  };
+"766 citizens from 10 provinces participated ion “Citizen Participation” project. As a result of the project, community movements have been established in 4 souls and 1 bag. Within the framework of NGO capacity building project, a regional training in Ulaanbaatar city and 21 provinces were organised and 3250 NGOs and staff were involved. ",  };
   render() {
     return (
       <div >
@@ -55,7 +54,7 @@ class civic_participation extends Component {
           </div>
           <div class={Civicparticipation.CivicParticipationProgramitem5}>
             <p className={Civicparticipation.CivicParticipationProgramitem5p} >{this.state.Organise}</p>
-            <hr className={Civicparticipation.CivicParticipationProgram1Hr} />
+            <hr className={Civicparticipation.CivicParticipationProgramitem1Hr} />
           </div>
           <div className={Civicparticipation.CivicParticipationProgramitem6} >
             <p className={Civicparticipation.CivicParticipationProgramitem6p} >{this.state.Setuplocalenvironmental}</p>
@@ -73,6 +72,7 @@ class civic_participation extends Component {
               {this.state.citizensfrom}
             </p>
           </div>
+          <br /> <br />
         </div>
       </div>
     );
