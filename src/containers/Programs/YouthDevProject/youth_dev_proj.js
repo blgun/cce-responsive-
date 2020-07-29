@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import youth from "./youthdevproj.css";
+import autoprefixer from "autoprefixer";
 
 class youth_dev_proj extends Component {
   //constructor(props) {
@@ -12,11 +13,11 @@ class youth_dev_proj extends Component {
     Youthbetween: "Youth between the ages of 15 to 34 years",
     Scope: "Scope",
     Ulaanbaatar:
-      "Ulaanbaatar city,Darkhan-Uul,Orkhon,Bayan-Ulgii,Uvs,Khowd,Zackan,Gobi-Altai,Bayankhongor,Umnu-Gobi,Dornogobi,Dornod-provinceu",
+      "Ulaanbaatar city, Darkhan-Uul, Orkhon, Bayan-Ulgii, Uvs, Khowd, Zackan, Gobi-Altai, Bayankhongor, Umnu-Gobi, Dornogobi, Dornod-province",
     Project: "Project",
     Goal:
       "Goal Enhance youth participation in the policy making process and youth development program, run influencing activities on youth issues, and empower youth organisations",
-    Parthners: "Parthners",
+    Parthners: "Partners",
     ParthnersP:
       "Partners Implementing agency of the Government of Mongolia - Authority of Family, Child and Youth development, Youth Development Agency, Centres for Youth Development, Youth clubs,Interest groups, Mongolian Youth Council and other youth organisations",
     Supporters: "Supporters",
@@ -37,36 +38,41 @@ class youth_dev_proj extends Component {
         <hr className={youth.youthdevprojzuraas} />
         <div style={{ display: "flex", width: "60%", margin: "auto" }}>
           <div style={{ width: "50%" }}>
-            <div
+            <div 
               style={{
                 boxShadow: "9px 10px 13px -4px rgba(0,0,0,0.75)",
                 backgroundColor: "#f5dd48",
-                margin: "5px 10px 5px 10px",
-                minHeight: "20%",
+                margin: "10px",
+                height: "auto",
+                padding: "6px",
               }}
             >
-              <h1>{this.state.Target}</h1>
-              <p>{this.state.Youthbetween}</p>
+              <h1 className={youth.youthdevprojheads}>{this.state.Target}</h1>
+              <p className={youth.youthdevprojtexts}>{this.state.Youthbetween}</p>
             </div>
             <div
               style={{
                 boxShadow: "9px 10px 13px -4px rgba(0,0,0,0.75)",
                 backgroundColor: "#f5dd48",
-                margin: "5px 10px 5px 10px",
+                margin: "10px",
+                height: "auto",
+                padding: "6px",
               }}
             >
-              <h1>{this.state.Scope}</h1>
-              <p>{this.state.Ulaanbaatar}</p>
+              <h1 className={youth.youthdevprojheads}>{this.state.Scope}</h1>
+              <p className={youth.youthdevprojtexts}> {this.state.Ulaanbaatar}</p>
             </div>
             <div
               style={{
                 boxShadow: "9px 10px 13px -4px rgba(0,0,0,0.75)",
                 backgroundColor: "#f6cb44",
-                margin: "5px 10px 5px 10px",
+                margin: "10px",
+                height: "auto",
+                padding: "6px",
               }}
             >
-              <h2> {this.state.Project}</h2>
-              {this.state.Goal}
+              <h2 className={youth.youthdevprojheads}> {this.state.Project}</h2>
+              <p className={youth.youthdevprojtexts}>{this.state.Goal}</p>
             </div>
           </div>
           <div style={{ width: "50%" }}>
@@ -74,23 +80,25 @@ class youth_dev_proj extends Component {
               style={{
                 boxShadow: "9px 10px 13px -4px rgba(0,0,0,0.75)",
                 backgroundColor: "#f7b53f",
-                margin: "5px 10px 5px 10px",
-                minHeight: "52%",
+                margin: "10px",
+                height: "auto",
+                padding: "6px",
               }}
             >
-              <h3>{this.state.Parthners}</h3>
-              <p>{this.state.ParthnersP}</p>
+              <h3 className={youth.youthdevprojheads}>{this.state.Parthners}</h3>
+              <p className={youth.youthdevprojtexts}>{this.state.ParthnersP}</p>
             </div>
             <div
               style={{
                 boxShadow: "9px 10px 13px -4px rgba(0,0,0,0.75)",
                 backgroundColor: "#f6cb44",
-                margin: "5px 10px 5px 10px",
-                minHeight: "40%",
+                margin: "10px",
+                height: "auto",
+                padding: "6px",
               }}
             >
-              <h5>{this.state.Supporters}</h5>
-              {this.state.UNFPA}
+              <h5 className={youth.youthdevprojtexts}>{this.state.Supporters}</h5>
+              <p className={youth.youthdevprojtexts}> {this.state.UNFPA} </p>
             </div>
           </div>
         </div>

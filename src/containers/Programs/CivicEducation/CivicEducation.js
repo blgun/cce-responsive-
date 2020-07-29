@@ -49,39 +49,35 @@ class CivicEducation extends Component {
             </p>
           </div>
           <div style={{ display: "flex" }}>
-            <GiTeacher color="#FD6E68" size="1.25rem" style={{ margin: "auto" }} />
+            <GiTeacher className={huudas.CivicEducationicon} />
             <p className={huudas.CivicEducationitem1} style={{ margin: "10px" }}>
               {this.state.p3}
               {this.state.p4}
             </p>
           </div>
           <div style={{ display: "flex" }}>
-            <FaUserAlt color="#FD6E68" size="1.25rem" style={{ margin: "auto" }} />
+            <FaUserAlt className={huudas.CivicEducationicon} />
             <p className={huudas.CivicEducationitem1}  style={{ margin: "10px" }}>
               {this.state.p5}
             </p>
           </div>
           <div style={{ display: "flex" }}>
             <FiUserCheck
-              color="red"
-              size="1.25rem"
-              style={{ margin: "auto" }}
+              className={huudas.CivicEducationicon}
             />
             <p className={huudas.CivicEducationitem1}  style={{ margin: "10px" }}>
               {this.state.p6}
             </p>
           </div>
           <div style={{ display: "flex" }}>
-            <FaBuilding color="#FD6E68" size="1.25rem" style={{ margin: "auto" }} />
+            <FaBuilding className={huudas.CivicEducationicon} />
             <p className={huudas.CivicEducationitem1}  style={{ margin: "10px" }}>
               {this.state.p7}
             </p>
           </div>
           <div style={{ display: "flex" }}>
             <FaUserTimes
-              color="#FD6E68"
-              size="1.25rem"
-              style={{ margin: "auto" }}
+              className={huudas.CivicEducationicon}
             />
             <p className={huudas.CivicEducationitem1} style={{ margin: "10px" }}>
               {this.state.p8}
@@ -89,7 +85,7 @@ class CivicEducation extends Component {
           </div>
         </div>
         <div>
-          <div>
+          <div style ={{display: "flex"}}>
             <p className={huudas.CivicEducationChvree}>
               {this.state.p9}
             </p>

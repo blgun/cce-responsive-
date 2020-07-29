@@ -1,9 +1,10 @@
 .ecoGarchig {
     color: #1AA65D;;
     text-align: center;
+    font-family: PT Sans;
   }
 .ecozuraas {
-    border-top: 1px solid #1AA65D;
+    border-top: 3px solid #1AA65D;
     width: 35%;
 }
 .zurag{
@@ -17,6 +18,7 @@
 .Ecop1
 {
   font-size: 15px;
+  font-family: PT Sans;
 }
 .ecodisplay {
   padding: 20px 50px 30px 180px;

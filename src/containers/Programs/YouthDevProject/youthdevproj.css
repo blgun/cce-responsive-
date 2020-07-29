@@ -1,11 +1,13 @@
 .youthdevprojGarchig {
-    color: #F5E84A;;
+    color: #EAD904;
     text-align: center;
   }
   .youthdevprojzuraas {
-    border-top: 1px solid #F8F40D;
+    border-top: 1px solid #EAD904;
     width: 35%;
   }
+
+
 .youthdevprojitems {
   margin: auto;
     top: 1456px;
@@ -14,7 +16,15 @@
     height: 200px;
     padding: 40px ;
     text-align: center;
-    border: 2px solid #DAA902;
+    border: 2px solid #EAD904;
+  }
+  .youthdevprojheads{
+    font-family: PT Sans;
+    font-size: 30;
+  }
+  .youthdevprojtexts{
+    font-family: PT Sans;
+    font-size: 18;
   }
 .youthdevprojflexcontainer {
   /* We first create a flex layout context */
