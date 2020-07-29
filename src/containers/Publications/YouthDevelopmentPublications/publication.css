@@ -1,0 +1,47 @@
+body {
+  background: radial-gradient(#e5e5e5, #fff, #e5e5e5);
+}
+.youth {
+  width: 40%;
+  margin: 5px;
+}
+.youthResponsive{
+    display: flex;
+    
+}
+
+.youth:hover {
+  box-shadow: 5px 20px 20px 1px rgba(0, 0, 0, 0.253) !important;
+}
+.youthbody {
+  padding: 3rem 0 !important;
+}
+.youthimgtop {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+.youthPrimary {
+  color: #ffff2a;
+  text-align: center;
+}
+.youthHr {
+  border-top: 1px solid #ffff2a;
+  width: 35%;
+}
+.youthflex-container > div {
+  background-color: #f1f1f1;
+  margin: 0px 10px;
+  padding: 12px;
+  font-size: 20px;
+}
+
+@media (max-width: 500px) {
+  .youth {
+    width: 200%;
+  }
+  .youthResponsive {
+    display: block;
+    width: 100%;
+  }
+}
