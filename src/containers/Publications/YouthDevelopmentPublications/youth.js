@@ -1,30 +1,32 @@
 import React, { Component } from "react";
 import CE from "./indexUI";
+
+import publication from "./publication.css";
 import { FaUserAlt } from "react-icons/fa";
 
-class youth extends Component {
+class Youth extends Component {
   render() {
     return (
       <div>
-        <h1 className="YouthDevelopmentPublicationsPrimary">
+        <h1 className={ publication .youthPrimary}>
           <i class="fa fa-user" aria-hidden="true"></i>
-          Youth Development Publications
+          Youth Development Publication
         </h1>
-        <hr className="YouthDevelopmentPublicationspublicationHr" />
+        <hr className={ publication .youthHr} />
 
-        <div style={{ display: "flex" }}>
+        <div className={ publication.youthResponsive}>
           <CE />
           <CE />
           <CE />
           <CE />
         </div>
-        <div style={{ display: "flex" }}>
+        <div className={ publication.youthResponsive}>
           <CE />
           <CE />
           <CE />
           <CE />
         </div>
-        <div style={{ display: "flex" }}>
+        <div className={ publication.youthResponsive}>
           <CE />
           <CE />
           <CE />
@@ -35,4 +37,4 @@ class youth extends Component {
   }
 }
 
-export default youth ;
+export default Youth;

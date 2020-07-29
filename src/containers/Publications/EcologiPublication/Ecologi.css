@@ -1,0 +1,47 @@
+body {
+  background: radial-gradient(#e5e5e5, #fff, #e5e5e5);
+}
+.ecologi {
+  width: 40%;
+  margin: 5px;
+}
+.ecologiResponsive{
+    display: flex;
+    
+}
+
+.ecologi:hover {
+  box-shadow: 5px 20px 20px 1px rgba(0, 0, 0, 0.253) !important;
+}
+.ecologibody {
+  padding: 3rem 0 !important;
+}
+.ecologiimgtop {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+.ecologiPrimary {
+  color: #87E296;
+  text-align: center;
+}
+.ecologiHr {
+  border-top: 1px solid #87E296;
+  width: 35%;
+}
+.ecologiflex-container > div {
+  background-color: #f1f1f1;
+  margin: 0px 10px;
+  padding: 12px;
+  font-size: 20px;
+}
+
+@media (max-width: 500px) {
+  .ecologi {
+    width: 200%;
+  }
+  .ecologiResponsive {
+    display: block;
+    width: 100%;
+  }
+}
