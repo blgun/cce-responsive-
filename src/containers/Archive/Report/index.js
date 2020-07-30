@@ -11,13 +11,17 @@ class Report extends Component {
   }
   render() {
     return (
-      <div className={style.ArchiveReportContainer}>
-        <MenuTitle title={"Reports"} />
-        <ReportCard imgsrc={reportimg} />
-        <ReportCard imgsrc={reportimg} />
-        <ReportCard imgsrc={reportimg} />
-        <ReportCard imgsrc={reportimg} />
-        <ReportCard imgsrc={reportimg} />
+      <div>
+        <div className={style.ArchiveReportTitle}>
+          <MenuTitle title={"Reports"} />
+        </div>
+        <div className={style.ArchiveReportContainer}>
+          <ReportCard imgsrc={reportimg} />
+          <ReportCard imgsrc={reportimg} />
+          <ReportCard imgsrc={reportimg} />
+          <ReportCard imgsrc={reportimg} />
+          <ReportCard imgsrc={reportimg} />
+        </div>
       </div>
     );
   }

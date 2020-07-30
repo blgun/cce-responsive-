@@ -1,27 +1,22 @@
 import React, { Component } from "react";
 import { connect } from "react-redux";
-import NewsSlider from "../../../components/UI/Slider/NewsSlider/index";
-import {
-  FacebookShareButton,
-  TwitterShareButton,
-  FacebookIcon,
-  TwitterIcon,
-} from "react-share";
-import { TwitterTimelineEmbed } from "react-twitter-embed";
+import MenuTitle from "../../../components/UI/MenuTitle/MenuTitle";
+import SocialSection from "../../../components/UI/Social/Social";
+import img from "../../../assets/images/News/imgss.jpg";
+import style from "./index.css";
 
 class NewsDetail extends Component {
   render() {
     return (
       <div>
-        {/* <NewsSlider /> */}
-        <div style={{ display: "flex", padding: "15px 0" }}>
-          <div style={{ margin: "0 15px", width: "70%" }}>
-            <img style={{ width: "100%", margin: "0"}}></img>
-            <h1>
-              Д.Нямхүү: Нийт 330 хүний сорьцод шинжилгээ хийхэд коронавирус
-              илрээгүй
+        <MenuTitle title="News" />
+        <div className={style.newsDetailSection}>
+          <div className={style.newsDetailContainer}>
+            <img className={style.newsDetailImg} src={img} />
+            <h1 className={style.newsDetailTitle}>
+              Moot Court Competition is Announced
             </h1>
-            <p style={{textAlign: "left"}}>
+            <p className={style.newsDetailText}>
               ХӨСҮТ-ийн Тандалт, судалгааны албаны дарга А.Амбасэлмаа: Өнөөдрийн
               байдлаар ажиглалт тусгаарлалтын байранд шинээр 24 хүн орж, нэг хүн
               гарсан. Одоо 2784 хүн тусгаарлалтад байна. Үүнд 1-5 насны 95
@@ -46,30 +41,8 @@ class NewsDetail extends Component {
               бүрэн ханган хүлээж байна.
             </p>
           </div>
-          <div style={{ width: "30%" }}>
-            <iframe
-              src={
-                "https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fcce.mongolia%2F&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"
-              }
-              width="300px"
-              height="500px"
-              style={{ border: "none", overflow: "hidden" }}
-              scrolling="no"
-              frameborder="0"
-              allowTransparency="true"
-              allow="encrypted-media"
-            ></iframe>
-            <TwitterTimelineEmbed
-              sourceType="profile"
-              screenName="cce_mongolia"
-              options={{ height: 350, width: 300 }}
-            />
-            {/* <FacebookShareButton
-              url={"https://www.facebook.com/cce.mongolia/"}
-              quote={"bla2"}
-            >
-              <FacebookIcon size={"2.5rem"} />
-            </FacebookShareButton> */}
+          <div className={style.socialContainer}>
+            <SocialSection />
           </div>
         </div>
       </div>

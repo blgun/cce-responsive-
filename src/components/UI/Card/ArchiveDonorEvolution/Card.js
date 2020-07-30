@@ -1,13 +1,14 @@
 import React from "react";
+import style from "./style.css";
 
 const Card = (props) => {
   return (
-    <div className={"archiveDonorEvolution text-center shadow"}>
+    <div className={style.DonorEvolution}>
       <div className="overflow">
         <img
           src={props.imgsrc}
           alt="image1"
-          className="archiveDonorEvolution-img-top"
+          className={style.DonorEvolutionImgTop}
         />
       </div>
       {/* <div className="archiveDonorEvolution-body text-dark">

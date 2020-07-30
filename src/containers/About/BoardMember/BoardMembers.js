@@ -9,7 +9,8 @@ import {
   GAdiya,
   KhRavdan,
   LChultem,
-} from "../../../assets/images/BoardMembers";
+} from "../../../assets/images/AboutUs/BoardMembers";
+import MenuTitle from "../../../components/UI/MenuTitle/MenuTitle";
 
 class BoardMembers extends Component {
   constructor(props) {
@@ -19,9 +20,7 @@ class BoardMembers extends Component {
   render() {
     return (
       <div>
-        <div>
-          <h1 className={classes.AboutBMheader}>Board Members</h1>
-        </div>
+        <MenuTitle title={"Board Members"}/>
 
         <CardRavdan imgsrc={KhRavdan} />
         <CardChultem imgsrc={LChultem} />

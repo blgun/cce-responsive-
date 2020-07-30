@@ -1,15 +1,15 @@
 .MenuTitleContainer {
-  border-bottom: 1px solid #40a4c8;
+  border-bottom: 1px solid grey;
   width: 20%;
   text-align: center;
-  margin: auto;
+  margin: 15px auto 0 auto;
   justify-self: center;
-  color: rgb(40, 40, 40);
+  color: rgb(78, 78, 78);
 }
 
 @media (max-width: 500px) {
   .MenuTitleContainer {
-    border-bottom: 1px solid #40a4c8;
+    border-bottom: 1px solid grey;
     width: 50%;
     text-align: center;
     margin: auto;

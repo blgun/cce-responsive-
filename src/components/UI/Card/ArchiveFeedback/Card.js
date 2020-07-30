@@ -1,24 +1,16 @@
 import React from "react";
+import style from "./style.css";
 
 const Card = (props) => {
   return (
-    <div className={"archiveFeedback text-center shadow"}>
+    <div className={style.archiveFeedBack}>
       <div className="overflow">
         <img
           src={props.imgsrc}
           alt="image1"
-          className="archiveFeedback-img-top"
+          className={style.archiveFeedBackImgTop}
         />
       </div>
-      {/* <div className="archiveFeedback-body text-dark">
-        <h4 className="archiveFeedback-title">News Title</h4>
-        <p className="archiveFeedback-text text-secondary">
-          Some texts are shown here
-        </p>
-        <a href="/newsDetail" className="btn btn-primary">
-          Read
-        </a>
-      </div> */}
     </div>
   );
 };

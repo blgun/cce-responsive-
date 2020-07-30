@@ -1,18 +1,19 @@
 import React from "react";
+import style from "./style.css";
 
 const Card = (props) => {
   return (
-    <div className={"archiveSuccessStories text-center shadow"}>
+    <div className={style.archiveSuccessStories}>
       <div className="overflow">
         <img
           src={props.imgsrc}
           alt="image1"
-          className="archiveSuccessStories-img-top"
+          className={style.archiveSuccessStoriesImgTop}
         />
       </div>
-      <div className="archiveSuccessStories-body text-dark">
-        <h4 className="archiveSuccessStories-title">News Title</h4>
-        <p>{new Date().toString()}</p>
+      <div className={style.archiveSuccessStoriesBody}>
+        <p className={style.archiveSuccessStoriesText}>{props.text}</p>
+        <span>{new Date().toString()}</span>
       </div>
     </div>
   );
