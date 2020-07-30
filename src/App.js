@@ -62,10 +62,7 @@ function App() {
           <Route path="/about/our_team" component={OurTeam} />
           <Route path="/programs/civic_education" component={CivicEducation} />
           <Route path="/programs/youth_dev_proj" component={YouthDevProject} />
-          <Route
-            path=" /programs/ecologeducation"
-            component={EcologicalEducation}
-          />
+          
           <Route path="/news" component={News} />
           <Route path="/newsDetail" component={NewsDetail} />
           <Route
@@ -78,7 +75,7 @@ function App() {
             component={Youthdevelopmentpublication}
           />{" "}
           /programs/ecologeducation
-          <Route path="/programs/ecologeducation" component={Ecologi} />
+          <Route path="/Publication/ecologeducation" component={Ecologi} />
           <Route path="/archive/reports" component={ArchiveReport} />
           <Route
             path="/archive/success_stories"
