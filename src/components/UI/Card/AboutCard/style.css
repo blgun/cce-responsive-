@@ -1,0 +1,42 @@
+.AboutCard {
+  display: flex;
+  margin: 15px;
+  box-shadow: 1px 1px 4px 0px rgba(0, 0, 0, 0.35);
+}
+
+.AboutCardImgContainer {
+  padding: 15px;
+  width: 30%;
+}
+
+.AboutCardImgContainer img {
+  width: 200px;
+  height: 200px;
+}
+
+.AboutCardInfoContainer {
+  padding: 15px;
+}
+
+.AboutCardInfoName {
+  text-align: left;
+  padding: 0 10px;
+}
+
+.AboutCardInfoText {
+  display: flex;
+}
+
+.AboutCardInfoTextleftright {
+  text-align: left;
+  padding: 0 10px;
+}
+
+@media (max-width: 500px) {
+  .AboutCard {
+    display: block;
+  }
+  .AboutCardImgContainer {
+    width: 100%;
+  }
+}

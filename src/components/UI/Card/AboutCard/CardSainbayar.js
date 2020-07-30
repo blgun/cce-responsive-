@@ -1,19 +1,20 @@
 import React, { Component } from "react";
+import style from "./style.css";
 
 class CardSainbayar extends Component {
   render() {
     return (
-      <div className="aboutCard text-center shadow">
-        <div>
+      <div className={style.AboutCard}>
+        <div className={style.AboutCardImgContainer}>
           <img src={this.props.imgsrc} alt="boardMemberImage" />
         </div>
-        <div>
-          <div style={{ textAlign: "left", padding: "0 10px" }}>
+        <div className={style.AboutCardInfoContainer}>
+          <div className={style.AboutCardInfoName}>
             <h2 style={{ fontWeight: "bold" }}>Mrs. Uyanda Sainbayar</h2>
             <h4>Member of the board of directors</h4>
           </div>
-          <div style={{ display: "flex" }}>
-            <div style={{ textAlign: "left", padding: "0 10px" }}>
+          <div className={style.AboutCardInfoText}>
+            <div className={style.AboutCardInfoTextleftright}>
               <b>2002-2006</b> Graduated from the National University of
               Mongolia with Bachelor of Arts Degree in History and History
               Teacher She is one of the contributing authors of Civic Education

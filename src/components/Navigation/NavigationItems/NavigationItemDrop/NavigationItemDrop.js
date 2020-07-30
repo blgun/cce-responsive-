@@ -14,7 +14,7 @@ const SwitchedDrop = (props) => {
             <NavLink to={"/about/our_team"}>Our Team</NavLink>
           </li>
           <li>
-            <NavLink to={"/about/partners"}>Chronicles</NavLink>
+            <NavLink to={"/about/Chronicles"}>Chronicles</NavLink>
           </li>
           <li>
             <NavLink to={"/about/partners"}>Partners</NavLink>

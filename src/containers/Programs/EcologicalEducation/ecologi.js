@@ -8,12 +8,12 @@ class ecologi extends Component {
       text1:
         "Develop ecological education curriculum for Eco schools and camps and introduce into the Mongolian education system",
       text2:
-        "Develop,publish,and disseminate ecological educational materials,textbooks and manuals",
+        "Develop, publish, and disseminate ecological educational materials, textbooks and manuals",
       text3: "Train school teachers and environmentalists",
       text4:
         " Conduct training for local people and community environmental groups",
       text5:
-        " Run an ecological summer camp for children and provide children width environmental education ",
+        " Run an ecological summer camp for children and provide children with environmental education ",
       text6:
         " Support and promote environmental projection actions and initiatives of comminity",
       text7: "Coordinate international environmental exchange programs",

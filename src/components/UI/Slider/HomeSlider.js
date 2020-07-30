@@ -1,19 +1,19 @@
 import React, { Component } from "react";
 import { Carousel } from "react-bootstrap";
-import homeSlider from "../../../assets/images/homeSlider.png";
+import homeSlider from "../../../assets/images/Home/homeSlider.png";
 import classes from "./HomeSlider.css";
 
 class HomeSlider extends Component {
   render() {
     return (
       <div>
-        <Carousel style={{ padding: "15px 0" }}>
+        <Carousel className={classes.HomeSlider}>
           <Carousel.Item>
             <img
               className="d-block w-100"
               src={homeSlider}
               alt="First slide"
-              style={{ height: "550px", margin: "0" }}
+              className={classes.HomeSliderImg}
             />
             <Carousel.Caption className={classes.HomeSliderTitle}>
               <h3>First slide label</h3>
@@ -25,7 +25,7 @@ class HomeSlider extends Component {
               className="d-block w-100"
               src={homeSlider}
               alt="Third slide"
-              style={{ height: "550px", margin: "0" }}
+              className={classes.HomeSliderImg}
             />
 
             <Carousel.Caption className={classes.HomeSliderTitle}>
@@ -38,7 +38,7 @@ class HomeSlider extends Component {
               className="d-block w-100"
               src={homeSlider}
               alt="Third slide"
-              style={{ height: "550px", margin: "0" }}
+              className={classes.HomeSliderImg}
             />
 
             <Carousel.Caption className={classes.HomeSliderTitle}>

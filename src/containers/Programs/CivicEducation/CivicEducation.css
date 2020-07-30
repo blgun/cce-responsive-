@@ -1,9 +1,10 @@
 .CivicEducationprimary {
-    color: red;
+    color: #FD6E68;
     text-align: center;
+    font-family: PT Sans;
   }
   .CivicEducationhr {
-    border-top: 1px solid red;
+    border-top: 3px solid #FD6E68;
     width: 35%;
   }
   
@@ -11,12 +12,13 @@
     background-color: bisque;
     width: 400px;
     margin: 20px auto;
+    padding: 10px 20px;
     border: 2px solid #fef0e3;
-    padding: 10px;
     border-radius: 50px;
+    font-family: PT Sans;
   }
   .CivicEducationgridcontainer {
-    width: 300px;
+    width: 440px;
     margin: 20px auto;
     padding: 2px;
     display: grid;
@@ -30,9 +32,53 @@
     top: 1456px;
       left: 600px;
       width: 800px;
-      height: 200px;
+      height: auto;
       padding: 40px ;
     text-align: center;
-    border: 2px solid red;
+    border: 2px solid #FD6E68;
+    font-family: PT Sans;
+    background-color: bisque;
+    border-radius: 30px;
+    margin: auto;
+  }
+
+  .CivicEducationicon{
+    color: #FD6E68;
+    margin: auto;
+    size: 1.25em;
+    width: 30px;
+    height: 30px;
+  }
+
+  @media (max-width: 500px) {
+    .CivicEducationgridcontainer {
+      width: 100%;
+      margin: 20px 10px;
+      padding: 2px;
+      display: grid;
+      grid-template-areas: "header";
+    }
+    .CivicEducationitem1 {
+      background-color: bisque;
+      width: 100%;
+      margin: 20px auto;
+      padding: 10px 20px;
+      border: 2px solid #fef0e3;
+      border-radius: 50px;
+      font-family: PT Sans;
+    }
+    .CivicEducationChvree {
+      top: 1456px;
+        left: 600px;
+        width: 800px;
+        height: auto;
+        padding: 20px ;
+      text-align: center;
+      border: 2px solid #FD6E68;
+      font-family: PT Sans;
+      background-color: bisque;
+      border-radius: 30px;
+      margin: auto;
+    }
   }
   
