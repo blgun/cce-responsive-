@@ -1,6 +1,9 @@
 import React, { Component } from "react";
 import { Container, Row, Col, Button } from "react-bootstrap";
-import Partner from "../../../components/UI/Card/Partners/Card";
+import "./Partners.css";
+import Partner from "../../../components/UI/Card/Partners /Card";
+
+
 class Partners extends Component {
   constructor(props) {
     super(props);
@@ -9,12 +12,13 @@ class Partners extends Component {
   render() {
     return (
       <div>
+     
         <div
           style={{
             margin: "0 auto",
             width: "1200px",
-            padding: "30px 0",
-            backgroundColor: "#d7eef1",
+            padding: "20px 0",
+            backgroundColor: "#f9ffff",
           }}
         >
           <Container fluid={true}>
@@ -34,8 +38,11 @@ class Partners extends Component {
               </Col>
             </Row>
           </Container>
+          
         </div>
+        
         <Partner />
+     
       </div>
     );
   }
