@@ -24,34 +24,21 @@ ul li {
   margin: 0 auto;
 }
 
-@media (max-width: 500px) {
+@media (max-width:  500px) {
   .rowblock{
-    width: 100%;
+    width: 150%;
+    display: block;
   }
-  .background {
-    display: flex;
-    height: 300px;
-    align-items: center;
-    margin-right: 100px;
-    width: 270px;
-    margin-bottom: 60px;
-    margin-left: -50px;
-    padding-top: 30px;
+  .menuResponsive{
+    display: block;
+    width: 150%;
   }
-  .social {
-    flex-direction: row;
-    text-align: right;
-  }
-  .address {
-    display: grid;
-    grid-template-columns: 1fr;
-    margin-left: -40px;
-  }
-  .company {
-    float: left;
+  .FooterResponsive{
+    display: block;
+    width: 150%;
   }
 }
-
-.company {
-  margin-bottom: 30px;
+.Header {
+  display: block;
+  width: 150%;
 }
