@@ -1,5 +1,5 @@
 import React from "react";
-import newsCard from "./card-style.css";
+import newsCard from "./style.css";
 
 const Card = (props) => {
   return (
@@ -13,16 +13,20 @@ const Card = (props) => {
       }
     >
       <div className="overflow">
-        <img src={props.imgsrc} alt="image1" className={newsCard.newsCardImgTop} />
+        <img
+          src={props.imgsrc}
+          alt="image1"
+          className={newsCard.newsCardImgTop}
+        />
       </div>
-      <div className="newsCard-body text-dark">
-        <h4 className="newsCard-title">News Title</h4>
-        <p className="newsCard-text text-secondary">
-          Some texts are shown here
-        </p>
-        <a href="/newsDetail" className="btn btn-primary">
-          Read
-        </a>
+      <div className={newsCard.newsCardBody}>
+        <h4>News Title</h4>
+        <p className={newsCard.newsCardText}>Some texts are shown here</p>
+        <div>
+          <a href="/newsDetail" className={newsCard.newsCardButton}>
+            Read
+          </a>
+        </div>
       </div>
     </div>
   );

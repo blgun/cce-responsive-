@@ -1,19 +1,20 @@
 import React, { Component } from "react";
+import style from "./style.css";
 
 class CardChultem extends Component {
   render() {
     return (
-      <div className="aboutCard text-center shadow">
-        <div>
+      <div className={style.AboutCard}>
+        <div className={style.AboutCardImgContainer}>
           <img src={this.props.imgsrc} alt="boardMemberImage" />
         </div>
-        <div>
-          <div style={{ textAlign: "left", padding: "0 10px" }}>
+        <div className={style.AboutCardInfoContainer}>
+          <div className={style.AboutCardInfoName}>
             <h2 style={{ fontWeight: "bold" }}>Dr. Lkhagvajav Chultem</h2>
             <h4>Member of the board of directors</h4>
           </div>
-          <div style={{ display: "flex" }}>
-            <div style={{ textAlign: "left", padding: "0 10px" }}>
+          <div className={style.AboutCardInfoText}>
+            <div className={style.AboutCardInfoTextleftright}>
               <b>1968-1973</b> Graduated the M.V.Lomonosov Moscow State
               University with Bachelor of Science Degree in Astonomy,
               Astrophysics Secretary General of the Board of Mongolian National
@@ -27,7 +28,7 @@ class CardChultem extends Component {
               Physics, Technological Institute of the Mongolian Academy of
               Sciences
             </div>
-            <div style={{ textAlign: "left", padding: "0 10px" }}>
+            <div className={style.AboutCardInfoTextleftright}>
               <b>1991-1995</b> Chief of the Astrospace Research sector of the
               Physics, Technological Institute of the Mongolian Academy of
               Sciences and project leader of the Astrophysics Research <br />

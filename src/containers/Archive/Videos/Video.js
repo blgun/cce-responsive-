@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Iframe from "react-iframe";
+import style from "./style.css";
 
 class Video extends Component {
   constructor(props) {
@@ -11,22 +12,22 @@ class Video extends Component {
   addItem = (props) => {
     const numbers = props.numbers;
     const listItems = numbers.map((number) => (
-      <div key={number} style={{ width: "25%" }}>
-        <Iframe url={number} />
+      <div key={number} className={style.homeVideoContainerFrame}>
+        <Iframe url={number} className={style.homeVideoContainerFrameVideo} />
       </div>
     ));
-    return <div style={{ display: "flex" }}>{listItems}</div>;
+    return <div className={style.homeVideoContainer}>{listItems}</div>;
   };
   render() {
     const numbers = [
       "https://www.youtube.com/embed/3gdPFH-1FIo",
-      "https://www.youtube.com/embed/byaq3qrSd4",
-      "https://www.youtube.com/embed/HjWMhflKgFk&t=3s",
+      "https://www.youtube.com/embed/HjWMhflKgFk",
+      "https://www.youtube.com/embed/nq0xodtXgy4",
       "https://www.youtube.com/embed/s2x0-Mf79dE",
     ];
     return (
       <div>
-        <h2>Видео</h2>
+        <h2 className={style.homeVideoContainerTitle}>Video</h2>
         <hr />
         <this.addItem numbers={numbers} />
       </div>

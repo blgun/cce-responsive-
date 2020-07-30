@@ -1,0 +1,24 @@
+.succesStoriesSection {
+  display: flex;
+  padding: 15px 0;
+}
+
+.succesStoriesContainer {
+  display: table;
+  margin: 0 15px;
+  width: 70%;
+}
+
+.socialContainer {
+  width: 30%;
+}
+
+@media (max-width: 500px) {
+  .succesStoriesContainer {
+    margin: 0 15px;
+    width: 100%;
+  }
+  .socialContainer {
+    display: none;
+  }
+}

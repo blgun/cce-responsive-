@@ -1,19 +1,20 @@
 import React, { Component } from "react";
+import style from "./style.css";
 
 class CardRavdan extends Component {
   render() {
     return (
-      <div className="aboutCard text-center shadow">
-        <div>
+      <div className={style.AboutCard}>
+        <div className={style.AboutCardImgContainer}>
           <img src={this.props.imgsrc} alt="boardMemberImage" />
         </div>
-        <div>
-          <div style={{ textAlign: "left", padding: "0 10px" }}>
+        <div className={style.AboutCardInfoContainer}>
+          <div className={style.AboutCardInfoName}>
             <h2 style={{ fontWeight: "bold" }}>Mr. Khatanbaatar Ravdan</h2>
             <h4>Chairman of the board of directors</h4>
           </div>
-          <div style={{ display: "flex" }}>
-            <div style={{ textAlign: "left", padding: "0 10px" }}>
+          <div className={style.AboutCardInfoText}>
+            <div className={style.AboutCardInfoTextleftright}>
               <b>1972-1979</b> Graduated from the National University of
               Mongolia with Bachelors Degree in Mathematics <br />
               <b>1977-1990</b> Proffessor at the National University of Mongolia
@@ -23,7 +24,7 @@ class CardRavdan extends Component {
               <b>1992-1994</b> Deputy director of the Mongolian Social
               Democratic Party
             </div>
-            <div style={{ textAlign: "left", padding: "0 10px" }}>
+            <div className={style.AboutCardInfoTextleftright}>
               <b>1995-2000</b> Ambassador Extraordinary and Plenipotentiary of
               Mongolia to Hungary <br />
               <b>2001-2005</b> Ambassador at large of Mongolia and the People's
